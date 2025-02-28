@@ -11,4 +11,10 @@ public String preLog()
 	return "success";
 	
 }
+	@GetMapping("/postData")
+	public String postData()
+	{
+		return "data post Successfully";
+		
+	}
 }
